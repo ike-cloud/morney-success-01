@@ -19,7 +19,6 @@ import Vue from 'vue';
 export default class Types extends Vue {
   @Prop() readonly value!:string;
     selectType(type:string){
-      console.log(type)
       if(type!=='-'&&type!=='+'){
         throw new Error('type is unknown')
       }
