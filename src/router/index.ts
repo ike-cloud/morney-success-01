@@ -14,7 +14,7 @@ const routes = [
     redirect: '/money'
   },
   {
-    path:'/labels/edit',
+    path:'/labels/edit/:id',
     component: EditLabel
   },
   {
